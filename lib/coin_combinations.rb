@@ -21,7 +21,6 @@ class Float
         num_nickels = change.fetch("nickels")
         input = (input.-(0.05.*(num_nickels))).round(2)
         counter = (counter.+(0.05.*(num_nickels)))
-        # binding.pry
       else
         false
       end
